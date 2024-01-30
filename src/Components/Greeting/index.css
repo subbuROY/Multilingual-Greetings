@@ -1,0 +1,24 @@
+.button-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: transparent;
+  margin-left: 12px;
+  border: 1px solid #db1c48;
+  border-radius: 14px;
+  color: #db1c48;
+  font-weight: bold;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.active {
+  background-color: #db1c48;
+  color: #ffff;
+}
